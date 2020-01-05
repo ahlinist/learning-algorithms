@@ -5,7 +5,7 @@ import java.util.Arrays;
 public class InsertionSort {
 
     public static void main(String... args) {
-        int[] array = new int[] {3,6,2,7,4,9,2,76,9,2345,4,9,0,3,-1,-5,-7,5,-98};
+        int[] array = new int[] {3,6,2,7,4,9,2,76,9,2345,4,9,0,3,-1,-5,-7,5,-98, 5, 6, 9,1,56,5678,-54,3,-98,-7,4,1,5};
         long initialTime = System.nanoTime();
 
         for (int i = 0; i < array.length; i++) {

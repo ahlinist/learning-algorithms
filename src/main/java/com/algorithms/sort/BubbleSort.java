@@ -19,8 +19,8 @@ public class BubbleSort {
         }
 
         long finalTime = System.nanoTime();
-        Arrays.stream(array)
-                .forEach(System.out::println);
+
+        System.out.println(Arrays.toString(array));
         System.out.println("Time consumed: " + (finalTime - initialTime));
     }
 }
